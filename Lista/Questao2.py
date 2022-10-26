@@ -6,4 +6,4 @@ while process_time() < 60:
         count += 1
         print(x)
     x += 1
-print("Primos encontrados: {}".format(count))
+print(f"Primos encontrados: {count}")
